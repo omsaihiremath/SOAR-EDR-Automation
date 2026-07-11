@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="UtZ3GcFlXh0mk6SgwwJ5">
+    <mxGraphModel dx="1483" dy="1162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-3" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Windows Endpoint&amp;nbsp;&lt;div&gt;Lazagne execution&amp;nbsp;&lt;/div&gt;&lt;div&gt;MITRE ATT&amp;amp;CK&lt;/div&gt;&lt;div&gt;TA0006 credential access&lt;/div&gt;&lt;div&gt;T1555 Credentials from password stores&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="290" x="280" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="SOAR-EDR Automation for Credential Access Detection" vertex="1">
+          <mxGeometry height="40" width="330" x="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-5" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FGNr_OI_mkkuwl8Hunzk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Limacharlie EDR Sensor&lt;div&gt;Collects process telemetry and endpoint events&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="295" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-7" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FGNr_OI_mkkuwl8Hunzk-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Custom YAML Detection Rule&lt;div&gt;Detection logic:&lt;br&gt;File path&lt;/div&gt;&lt;div&gt;Command line&amp;nbsp;&lt;/div&gt;&lt;div&gt;SHAH 256 Hash&lt;/div&gt;&lt;div&gt;Detection generated&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="320" x="267.5" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-9" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FGNr_OI_mkkuwl8Hunzk-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Webhook Output&lt;br&gt;limacharlie forwards detection to Tines" vertex="1">
+          <mxGeometry height="60" width="120" x="368" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-11" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FGNr_OI_mkkuwl8Hunzk-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tines SOAR&lt;div&gt;Process Webhook and executes automated workflow&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="340" x="260" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-13" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FGNr_OI_mkkuwl8Hunzk-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Slack Notification&lt;div&gt;Real time alert delivered to SOC #alerts channel&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="270" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-15" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-16" edge="1" parent="1" source="FGNr_OI_mkkuwl8Hunzk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FGNr_OI_mkkuwl8Hunzk-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOC Analyst Review&lt;div&gt;Validate detection and assess severity&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="290" x="285" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Continue monitoring&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="488" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="FGNr_OI_mkkuwl8Hunzk-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Isolate Endpoint" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
