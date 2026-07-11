@@ -171,7 +171,7 @@ The following screenshots demonstrate the complete end-to-end detection and resp
 The attack simulation begins by executing **LaZagne** on the Windows endpoint to enumerate locally stored credentials.
 
 <p align="center">
-<img src="Screenshot1.png" width="900">
+<img src="screenshots/Screenshot1.png" width="900">
 </p>
 
 ---
@@ -181,7 +181,7 @@ The attack simulation begins by executing **LaZagne** on the Windows endpoint to
 LimaCharlie captures the process execution and records endpoint telemetry, including the executed binary, command-line arguments, process metadata, and SHA-256 hash.
 
 <p align="center">
-<img src="Screenshot2.png" width="900">
+<img src="screenshots/Screenshot2.png" width="900">
 </p>
 
 ---
@@ -198,7 +198,7 @@ Detection criteria include:
 - SHA-256 hash verification
 
 <p align="center">
-<img src="Screenshot3.png" width="900">
+<img src="screenshots/Screenshot3.jpeg" width="900">
 </p>
 
 ---
@@ -208,7 +208,7 @@ Detection criteria include:
 When the detection criteria are satisfied, LimaCharlie generates a high-severity detection event.
 
 <p align="center">
-<img src="Screenshot4.png" width="900">
+<img src="screenshots/Screenshot4.jpeg" width="900">
 </p>
 
 ---
@@ -218,7 +218,7 @@ When the detection criteria are satisfied, LimaCharlie generates a high-severity
 After the rule is evaluated successfully, LimaCharlie creates a detection event that can be consumed by downstream automation workflows.
 
 <p align="center">
-<img src="Screenshot5.png" width="900">
+<img src="screenshots/Screenshot5.jpeg" width="900">
 </p>
 
 ---
@@ -228,7 +228,7 @@ After the rule is evaluated successfully, LimaCharlie creates a detection event 
 The detection is forwarded to Tines through a webhook where the automation workflow processes the event.
 
 <p align="center">
-<img src="Screenshot6.png" width="900">
+<img src="screenshots/Screenshot6.jpeg" width="900">
 </p>
 
 ---
@@ -238,7 +238,7 @@ The detection is forwarded to Tines through a webhook where the automation workf
 The Tines workflow executes successfully and sends an authenticated request to Slack.
 
 <p align="center">
-<img src="Screenshot7.png" width="900">
+<img src="screenshots/Screenshot7.jpeg" width="900">
 </p>
 
 ---
@@ -248,7 +248,7 @@ The Tines workflow executes successfully and sends an authenticated request to S
 The SOC analyst receives a real-time notification indicating that credential access activity has been detected.
 
 <p align="center">
-<img src="Screenshot8.png" width="900">
+<img src="screenshots/Screenshot8.jpeg" width="900">
 </p>
 
 ---
